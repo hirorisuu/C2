@@ -9,6 +9,7 @@ void space(string s, state *option){
 
 int equa_1(string s, state *option){
 	int ret = equa_2(s, option);
+	space(s,option);
 	while (1){
 		if (s[option->posi] == '+'){
 			option->posi++;
@@ -26,14 +27,15 @@ int equa_1(string s, state *option){
 
 int equa_2(string s, state *option){
 	int ret = equa_3(s, option);
+	space(s, option);
 	while(1){
 		if (s[option->posi] == '*'){
 			option->posi++;
-			ret *= equa_2(s, option);
+			ret *= equa_3(s, option);
 		}
 		else if (s[option->posi] == '/'){
 			option->posi++;
-			ret /= equa_2(s, option);
+			ret /= equa_3(s, option);
 		}
 		else {
 			return ret;
