@@ -1,41 +1,14 @@
-﻿2015/08/26 17:56:22 にビルドを開始しました。
+﻿2015/08/27 9:40:39 にビルドを開始しました。
      1>ノード 2 上のプロジェクト "C:\Users\hoget157\Documents\GitHub\C2\C--\C--.vcxproj" (Build ターゲット)。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
          Main.cpp
-     1>c:\users\hoget157\documents\github\c2\c--\main.h(9): error C2146: 構文エラー : ';' が、識別子 'program' の前に必要です。
-     1>c:\users\hoget157\documents\github\c2\c--\main.h(9): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
-     1>c:\users\hoget157\documents\github\c2\c--\main.cpp(6): error C2872: 'string' : あいまいなシンボルです。
-                 'c:\users\hoget157\documents\github\c2\c--\main.h(9) の可能性があります : int string''
-                 または 'c:\program files (x86)\microsoft visual studio 12.0\vc\include\xstring(2643) : std::string'
-     1>c:\users\hoget157\documents\github\c2\c--\main.cpp(6): error C2146: 構文エラー : ';' が、識別子 's' の前に必要です。
-     1>c:\users\hoget157\documents\github\c2\c--\main.cpp(6): error C2065: 's' : 定義されていない識別子です。
-     1>c:\users\hoget157\documents\github\c2\c--\main.cpp(8): error C2065: 's' : 定義されていない識別子です。
-     1>c:\users\hoget157\documents\github\c2\c--\main.cpp(9): error C2065: 's' : 定義されていない識別子です。
-     1>c:\users\hoget157\documents\github\c2\c--\main.cpp(9): error C2228: '.empty' の左側はクラス、構造体、共用体でなければなりません
-                 型は 'unknown-type' です。
-     1>c:\users\hoget157\documents\github\c2\c--\main.cpp(14): error C2872: 'string' : あいまいなシンボルです。
-                 'c:\users\hoget157\documents\github\c2\c--\main.h(9) の可能性があります : int string''
-                 または 'c:\program files (x86)\microsoft visual studio 12.0\vc\include\xstring(2643) : std::string'
-     1>c:\users\hoget157\documents\github\c2\c--\main.cpp(14): error C2146: 構文エラー : ';' が、識別子 'program' の前に必要です。
-     1>c:\users\hoget157\documents\github\c2\c--\main.cpp(14): error C4430: 型指定子がありません - int と仮定しました。メモ: C++ は int を既定値としてサポートしていません
-     1>c:\users\hoget157\documents\github\c2\c--\main.cpp(14): error C2086: 'int string' : 再定義されました。
-                 c:\users\hoget157\documents\github\c2\c--\main.h(9) : 'string' の宣言を確認してください。
-     1>c:\users\hoget157\documents\github\c2\c--\main.cpp(14): error C2146: 構文エラー : ')' が、識別子 'prog' の前に必要です。
-     1>c:\users\hoget157\documents\github\c2\c--\main.cpp(14): error C2374: 'program' : 再定義されています。2 回以上初期化されています。
-                 c:\users\hoget157\documents\github\c2\c--\main.h(9) : 'program' の宣言を確認してください。
-     1>c:\users\hoget157\documents\github\c2\c--\main.cpp(14): error C2059: 構文エラー : ')'
-     1>c:\users\hoget157\documents\github\c2\c--\main.cpp(14): error C2143: 構文エラー : ';' が '{' の前にありません。
-     1>c:\users\hoget157\documents\github\c2\c--\main.cpp(14): error C2447: '{' : 対応する関数ヘッダーがありません (旧形式の仮引数リスト?)
-     1>c:\users\hoget157\documents\github\c2\c--\main.cpp(22): error C2872: 'string' : あいまいなシンボルです。
-                 'c:\users\hoget157\documents\github\c2\c--\main.h(9) の可能性があります : int string''
-                 または 'c:\program files (x86)\microsoft visual studio 12.0\vc\include\xstring(2643) : std::string'
-     1>c:\users\hoget157\documents\github\c2\c--\main.cpp(22): error C2146: 構文エラー : ')' が、識別子 's' の前に必要です。
-     1>c:\users\hoget157\documents\github\c2\c--\main.cpp(22): error C2059: 構文エラー : ')'
-     1>c:\users\hoget157\documents\github\c2\c--\main.cpp(22): error C2143: 構文エラー : ';' が '{' の前にありません。
-     1>c:\users\hoget157\documents\github\c2\c--\main.cpp(22): error C2447: '{' : 対応する関数ヘッダーがありません (旧形式の仮引数リスト?)
-     1>プロジェクト "C:\Users\hoget157\Documents\GitHub\C2\C--\C--.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hoget157\Documents\GitHub\C2\Debug\C--.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\hoget157\Documents\GitHub\C2\Debug\C--.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\hoget157\Documents\GitHub\C2\Debug\C--.lib" /MACHINE:X86 Debug\Main.obj
+         Debug\Parser.obj
+         C--.vcxproj -> C:\Users\hoget157\Documents\GitHub\C2\Debug\C--.exe
+     1>プロジェクト "C:\Users\hoget157\Documents\GitHub\C2\C--\C--.vcxproj" (Build ターゲット) のビルドが完了しました。
 
-ビルドに失敗しました。
+ビルドに成功しました。
 
-経過時間 00:00:01.04
+経過時間 00:00:00.81

@@ -1,9 +1,5 @@
 #pragma once
-#include <iostream>
 #include <string>
-#include <sstream>
-#include <cctype>
-#include <cstring>
-#include "Class.h"
+using namespace std;
 
 string program(string);

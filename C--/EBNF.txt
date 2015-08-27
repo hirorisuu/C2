@@ -1,0 +1,22 @@
+EBNF
+num = 0~9
+int = { num }
+char = "a"~"Z"
+symbol = 0~256 - char
+string = { char }
+bool = true | false
+double = int , "." , int
+funcdef = type , string , "(" , { type , string } ")" , "{" , { function } , "}"
+function = string , "(" , { type , string } ")" | if | while | 
+if = "if" , bool , "do" , "{" , { function } , "}" , [ "else" , ]
+type = "int" | "char" | "bool" | "double" | array
+expr = int | char | bool | double
+array = { expr }
+for = string , "=" , int , "~" , int , "do" , "{" , { function } , "}"
+while = "while" , bool , "do" , "{" , { function } , "}"
+vardef = type , string , [ "=" , expr ]
+
+equa_1 = equa_2 , "+" | "-" , equa_2
+equa_2 = equa_3 , "*" | "/" , equa_3
+equa_3 = "(" equa_1 ")" | int
+ 

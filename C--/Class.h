@@ -1,7 +1,8 @@
 #pragma once
+using namespace std;
 
 struct state{
-	int position;
+	int posi;
 	int error;
 };
 
