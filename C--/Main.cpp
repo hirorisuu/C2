@@ -21,6 +21,6 @@ string program(string prog){
 	state option = { 0, 0 };
 	int ret = equa_1(prog, &option);
 	ostringstream stream;
-	stream << ret << "(" << (option.error ? "Error, " : "") << "index: " << option.posi << ")";
+	stream << ret << "(" << (option.error ? "Error, " : "") << "position: " << option.posi << ")";
 	return stream.str();
 }

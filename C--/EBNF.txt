@@ -19,4 +19,4 @@ vardef = type , string , [ "=" , expr ]
 equa_1 = equa_2 , "+" | "-" , equa_2
 equa_2 = equa_3 , "*" | "/" , equa_3
 equa_3 = "(" equa_1 ")" | int
- 
+compare = equa_1 |  , "==" | ">" | "<" | ">=" | "<=" | "!=" , equa_1
