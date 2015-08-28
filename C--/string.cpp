@@ -3,13 +3,8 @@ int strlen(char *x){
 	while (x[k++]);
 	return k;
 }
-char strcpy(char *x, char *y){
-	char *a;
-	char *z;
-	while ((*(a++) = *(x++)));
-	while ((*(z++) = *(y++)));
-	x = z;
-	return *a;
+void strcpy(char *x, char *y){
+	while ((*(x++) = *(y++)));
 }
 void strncpy(char *x, char *y, int k)
 {
